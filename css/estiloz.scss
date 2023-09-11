@@ -1,0 +1,93 @@
+@import "../partials/variables";
+@import "../partials/generales";
+@import "../partials/media";
+
+
+.quiensoy{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    .teoagua{
+        justify-content: center;
+    }
+    .parrafo{
+    padding: 1rem;
+    color: $color-terciario;
+    font-size: 15px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bolder;
+    }
+}
+
+.merchandising{
+    margin: 10px;
+    padding-left: 20px;
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        border: solid $color-terciario;
+        .remera{
+            @include mercaderia;
+        }
+        .buzo{
+            @include mercaderia;
+        }
+        .gorra{
+            @include mercaderia;
+        }
+        .llavero{
+            @include mercaderia;
+        }
+        .campera{
+            @include mercaderia;
+        }
+        .vinilo{
+            @include mercaderia;
+        }
+    }
+}
+
+.galeria{
+    padding: 4rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "teo1 teo2"
+    "teo3 teo4"
+    "teo5";
+    .teo1{
+        @include galerucha;
+    }
+    .teo2{
+        @include galerucha;
+    }
+    .teo3{
+        @include galerucha;
+    }
+    .teo4{
+        @include galerucha;
+    }
+    .teo5{
+        @include galerucha;
+    }
+}
+
+.recitales{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+
+.formulario{
+    padding-bottom: 5px + 5;
+    padding-inline: 25px * 27;
+    color: yellowgreen;
+    border: 0px;
+    text-align: center;
+}
