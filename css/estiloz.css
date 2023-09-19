@@ -81,6 +81,148 @@ footer .tiktok {
   transform: scale(2);
 }
 
+.quiensoy {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.quiensoy .teoagua {
+  justify-content: center;
+}
+.quiensoy .parrafo {
+  padding: 1rem;
+  color: #f5f5f5;
+  font-size: 15px;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.merchandising {
+  margin: 10px;
+  padding-left: 20px;
+}
+.merchandising .productos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  border: solid #f5f5f5;
+}
+.merchandising .productos .remera {
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+.merchandising .productos .buzo {
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+.merchandising .productos .gorra {
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+.merchandising .productos .llavero {
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+.merchandising .productos .campera {
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+.merchandising .productos .vinilo {
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+
+.galeria {
+  padding: 4rem;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "teo1 teo2" "teo3 teo4" "teo5";
+}
+.galeria .teo1 {
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+.galeria .teo2 {
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+.galeria .teo3 {
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+.galeria .teo4 {
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+.galeria .teo5 {
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.shows {
+  padding: 20px;
+}
+.shows .recitales {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.shows .recitales .velez {
+  width: 800px;
+  height: 400px;
+  margin-top: 15px;
+}
+.shows .recitales .colon {
+  width: 800px;
+  height: 400px;
+  margin-top: 15px;
+}
+.shows .recitales .flores {
+  width: 800px;
+  height: 400px;
+  margin-top: 15px;
+}
+.shows .recitales .opera {
+  width: 800px;
+  height: 400px;
+  margin-top: 15px;
+}
+.shows .recitales .vorterix {
+  width: 800px;
+  height: 400px;
+  margin-top: 15px;
+}
+
+.formulario {
+  padding-bottom: 10px;
+  padding-inline: 675px;
+  color: yellowgreen;
+  border: 0px;
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
   .productos {
     display: grid;
@@ -195,6 +337,9 @@ footer .tiktok {
     height: 500px;
     margin-top: 15px;
   }
+  .formulario {
+    padding: 90px;
+  }
   .redes {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -285,7 +430,8 @@ footer .tiktok {
     margin-top: 15px;
   }
   .recitales {
-    margin-block: 0;
+    display: flex;
+    flex-direction: column;
     padding-left: 10px;
   }
   .recitales .velez {
@@ -322,6 +468,9 @@ footer .tiktok {
     height: 500px;
     margin-top: 15px;
   }
+  .formulario {
+    padding: 90px;
+  }
   .redes {
     margin-top: 20px;
     display: flex;
@@ -342,7 +491,7 @@ footer .tiktok {
 }
 @media (max-width: 480px) {
   .encabezado {
-    width: 450px;
+    width: 350px;
     height: 300px;
   }
   .productos {
@@ -469,117 +618,4 @@ footer .tiktok {
   .redes .tiktok {
     padding-inline-start: 5px;
   }
-}
-.quiensoy {
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  gap: 2rem;
-}
-.quiensoy .teoagua {
-  justify-content: center;
-}
-.quiensoy .parrafo {
-  padding: 1rem;
-  color: #f5f5f5;
-  font-size: 15px;
-  text-align: left;
-  font-family: sans-serif;
-  font-weight: bolder;
-}
-
-.merchandising {
-  margin: 10px;
-  padding-left: 20px;
-}
-.merchandising .productos {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px;
-  border: solid #f5f5f5;
-}
-.merchandising .productos .remera {
-  padding: 10px;
-  border: 2px solid #f5f5f5;
-  justify-content: center;
-  text-align: center;
-}
-.merchandising .productos .buzo {
-  padding: 10px;
-  border: 2px solid #f5f5f5;
-  justify-content: center;
-  text-align: center;
-}
-.merchandising .productos .gorra {
-  padding: 10px;
-  border: 2px solid #f5f5f5;
-  justify-content: center;
-  text-align: center;
-}
-.merchandising .productos .llavero {
-  padding: 10px;
-  border: 2px solid #f5f5f5;
-  justify-content: center;
-  text-align: center;
-}
-.merchandising .productos .campera {
-  padding: 10px;
-  border: 2px solid #f5f5f5;
-  justify-content: center;
-  text-align: center;
-}
-.merchandising .productos .vinilo {
-  padding: 10px;
-  border: 2px solid #f5f5f5;
-  justify-content: center;
-  text-align: center;
-}
-
-.galeria {
-  padding: 4rem;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "teo1 teo2" "teo3 teo4" "teo5";
-}
-.galeria .teo1 {
-  justify-content: center;
-  text-align: center;
-  padding: 3rem;
-}
-.galeria .teo2 {
-  justify-content: center;
-  text-align: center;
-  padding: 3rem;
-}
-.galeria .teo3 {
-  justify-content: center;
-  text-align: center;
-  padding: 3rem;
-}
-.galeria .teo4 {
-  justify-content: center;
-  text-align: center;
-  padding: 3rem;
-}
-.galeria .teo5 {
-  justify-content: center;
-  text-align: center;
-  padding: 3rem;
-}
-
-.recitales {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
-.formulario {
-  padding-bottom: 10px;
-  padding-inline: 675px;
-  color: yellowgreen;
-  border: 0px;
-  text-align: center;
 }/*# sourceMappingURL=estiloz.css.map */
