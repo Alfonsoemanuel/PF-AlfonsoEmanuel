@@ -132,19 +132,19 @@
 
     .redes{
         display: flex;
-        flex-direction: row;
+        flex-direction:row;
         .facebook{
-            padding-left: 10px;
+            padding-left: 20px;
         }
         .instagram{
             padding-right: 90px;
             padding-bottom: 15px;
         }
         .spotyfi{
-            padding-left: 10px;
+            padding-left: 100px;
         }
         .tiktok{
-            padding-left: 10px;
+            padding-left: 100px;
         }
     }
 }

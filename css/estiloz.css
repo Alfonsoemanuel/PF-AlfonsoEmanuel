@@ -349,17 +349,17 @@ footer .tiktok {
     flex-direction: row;
   }
   .redes .facebook {
-    padding-left: 10px;
+    padding-left: 20px;
   }
   .redes .instagram {
     padding-right: 90px;
     padding-bottom: 15px;
   }
   .redes .spotyfi {
-    padding-left: 10px;
+    padding-left: 100px;
   }
   .redes .tiktok {
-    padding-left: 10px;
+    padding-left: 100px;
   }
 }
 @media (max-width: 768px) {
