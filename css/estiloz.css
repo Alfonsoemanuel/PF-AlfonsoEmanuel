@@ -297,32 +297,36 @@ footer .tiktok {
     height: 500px;
     margin-top: 15px;
   }
-  .recitales {
-    margin-block: 0;
-    padding-left: 2px;
+  .shows {
+    padding: 70px;
   }
-  .recitales .velez {
-    width: 1000px;
+  .shows .recitales {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .shows .recitales .velez {
+    width: 800px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .colon {
-    width: 1000px;
+  .shows .recitales .colon {
+    width: 800px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .flores {
-    width: 1000px;
+  .shows .recitales .flores {
+    width: 800px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .opera {
-    width: 1000px;
+  .shows .recitales .opera {
+    width: 800px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .vorterix {
-    width: 1000px;
+  .shows .recitales .vorterix {
+    width: 800px;
     height: 400px;
     margin-top: 15px;
   }
@@ -341,10 +345,8 @@ footer .tiktok {
     padding: 90px;
   }
   .redes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "facebook instagram" "spotyfi tiktok";
+    display: flex;
+    flex-direction: row;
   }
   .redes .facebook {
     padding-left: 10px;

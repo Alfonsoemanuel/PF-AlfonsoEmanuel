@@ -78,35 +78,39 @@
         }
     }
 
+    .shows{
+        padding: 70px;
     .recitales{
-        margin-block: 0;
-        padding-left: 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         .velez{
-            width: 1000px;
+            width: 800px;
             height: 400px;
             margin-top: 15px;
         }
         .colon{
-            width: 1000px;
+            width: 800px;
             height: 400px;
             margin-top: 15px;
         }    
         .flores{
-            width: 1000px;
+            width: 800px;
             height: 400px;
             margin-top: 15px;
         }
             .opera{
-                width: 1000px;
+                width: 800px;
             height: 400px;
             margin-top: 15px;
         }
             .vorterix{
-                width: 1000px;
+                width: 800px;
             height: 400px;
             margin-top: 15px;
         }
     }
+}
 
     .quiensoy{
         display: grid;
@@ -127,12 +131,8 @@
     }
 
     .redes{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-        "facebook instagram"
-        "spotyfi tiktok";
+        display: flex;
+        flex-direction: row;
         .facebook{
             padding-left: 10px;
         }
