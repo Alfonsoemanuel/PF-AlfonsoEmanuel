@@ -1,3 +1,125 @@
+@media (max-width: 1500px){
+    .merchandising{
+        justify-content: center;
+        .productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 5px;
+        border: solid $color-terciario;
+        justify-items: center;
+            .remera{
+            width: 700px;
+            height: 800px;
+            margin-top: 15px;
+        }
+            .buzo{
+            width: 700px;
+            height: 800px;
+            margin-top: 15px;
+        }
+            .llavero{
+            width: 700px;
+            height: 800px;
+            margin-top: 15px;
+        }
+        .gorra{
+            width: 700px;
+            height: 800px;
+            margin-top: 15px;
+        }
+        .llavero{
+            width: 700px;
+            height: 800px;
+            margin-top: 15px;
+        }
+        .campera{
+            width: 700px;
+            height: 800px;
+            margin-top: 15px;
+        }
+        .vinilo{
+            width: 700px;
+            height: 800px;
+            margin-top: 15px;
+        }
+    }
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "teo1 teo2"
+    "teo3 teo4"
+    "teo6";
+    .teo1{
+        width: 700px;
+        height: 600px;
+        margin-top: 15px;
+    }
+    .teo2{
+        width: 700px;
+        height: 600px;
+        margin-top: 15px;
+    }
+    .teo3{
+        width: 700px;
+        height: 600px;
+        margin-top: 15px;
+    }
+    .teo4{
+        width: 700px;
+        height: 600px;
+        margin-top: 15px;
+    }
+    .teo5{
+        width: 700px;
+        height: 600px;
+        margin-top: 15px;
+    }
+}
+
+    .shows{
+        text-align: center;
+    .recitales{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        .velez{
+            width: 1000px;
+            height: 600px;
+            margin-top: 15px;
+        }
+        .colon{
+            width: 1000px;
+            height: 600px;
+            margin-top: 15px;
+        }    
+        .flores{
+            width: 1000px;
+            height: 600px;
+            margin-top: 15px;
+        }
+            .opera{
+                width: 1000px;
+                height: 400px;
+                margin-top: 15px;
+        }
+            .vorterix{
+                width: 1000px;
+                height: 600px;
+                margin-top: 15px;
+        }
+    }
+}
+
+    .formulario{
+        padding: 11rem;
+    }
+}
+
 @media (max-width: 1200px){
     .merchandising{
         justify-content: center;
