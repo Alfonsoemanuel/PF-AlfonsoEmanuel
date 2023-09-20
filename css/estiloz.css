@@ -183,6 +183,7 @@ footer .tiktok {
 
 .shows {
   padding: 20px;
+  text-align: center;
 }
 .shows .recitales {
   display: grid;
@@ -223,6 +224,121 @@ footer .tiktok {
   text-align: center;
 }
 
+@media (max-width: 1200px) {
+  .merchandising {
+    justify-content: center;
+  }
+  .merchandising .productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: solid #f5f5f5;
+    justify-items: center;
+  }
+  .merchandising .productos .remera {
+    width: 700px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  .merchandising .productos .buzo {
+    width: 700px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  .merchandising .productos .llavero {
+    width: 700px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  .merchandising .productos .gorra {
+    width: 700px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  .merchandising .productos .llavero {
+    width: 700px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  .merchandising .productos .campera {
+    width: 700px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  .merchandising .productos .vinilo {
+    width: 700px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "teo1 teo2" "teo3 teo4" "teo6";
+  }
+  .galeria .teo1 {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .galeria .teo2 {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .galeria .teo3 {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .galeria .teo4 {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .galeria .teo5 {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .shows {
+    padding: 70px;
+    text-align: center;
+  }
+  .shows .recitales {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .shows .recitales .velez {
+    width: 1000px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .shows .recitales .colon {
+    width: 1000px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .shows .recitales .flores {
+    width: 1000px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .shows .recitales .opera {
+    width: 1000px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .shows .recitales .vorterix {
+    width: 1000px;
+    height: 600px;
+    margin-top: 15px;
+  }
+  .formulario {
+    padding: 150px;
+  }
+}
 @media (max-width: 1024px) {
   .productos {
     display: grid;
