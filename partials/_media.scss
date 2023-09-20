@@ -468,10 +468,12 @@
         }
     }
 
+    .shows{
+        padding: 0px;
     .recitales{
         display: flex;
         flex-direction: column;
-        padding-left: 10px;
+        padding-left: 5px;
         .velez{
             width: 725px;
             height: 400px;
@@ -498,6 +500,7 @@
             margin-top: 15px;
         }
     }
+}
 
     .quiensoy{
         display: flex;
@@ -532,6 +535,7 @@
         }
     }
 }
+
 
 @media (max-width: 480px) {
     .encabezado{

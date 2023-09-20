@@ -664,32 +664,35 @@ footer .tiktok {
     height: 500px;
     margin-top: 15px;
   }
-  .recitales {
+  .shows {
+    padding: 0px;
+  }
+  .shows .recitales {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 5px;
   }
-  .recitales .velez {
+  .shows .recitales .velez {
     width: 725px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .colon {
+  .shows .recitales .colon {
     width: 725px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .flores {
+  .shows .recitales .flores {
     width: 725px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .opera {
+  .shows .recitales .opera {
     width: 725px;
     height: 400px;
     margin-top: 15px;
   }
-  .recitales .vorterix {
+  .shows .recitales .vorterix {
     width: 725px;
     height: 400px;
     margin-top: 15px;
