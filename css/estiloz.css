@@ -218,7 +218,7 @@ footer .tiktok {
 
 .formulario {
   padding-bottom: 10px;
-  padding-inline: 675px;
+  padding-inline: 450px;
   color: yellowgreen;
   border: 0px;
   text-align: center;
@@ -336,7 +336,8 @@ footer .tiktok {
     margin-top: 15px;
   }
   .formulario {
-    padding: 11rem;
+    padding-inline: 16rem;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 1200px) {
@@ -451,7 +452,8 @@ footer .tiktok {
     margin-top: 15px;
   }
   .formulario {
-    padding: 150px;
+    padding-inline: 15rem;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 1024px) {
