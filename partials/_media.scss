@@ -397,6 +397,9 @@
 }
 
 @media (max-width: 768px) {
+    .merchandising{
+        border: solid $color-terciario;
+        padding: 2px;
     .productos{
         display: grid;
         grid-template-columns: 1fr;
@@ -434,7 +437,7 @@
             margin-top: 15px;
         }
     }
-
+}
 
     .galeria{
         padding-left: 25px;
@@ -542,11 +545,15 @@
         width: 350px;
         height: 300px;
     }
+
+    .merchandising{
+        border: solid $color-terciario;
+        padding: 1px;
     .productos{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        border: $color-terciario;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        border: solid $color-terciario;
         .remera{
             width: 300px;
             height: 300px;
@@ -578,7 +585,7 @@
             margin-top: 15px;
         }
     }
-
+    }
     .galeria{
         display: grid;
         grid-template-columns: 1fr;
@@ -610,7 +617,8 @@
         }
     }
 
-
+    .shows{
+        padding: 0px;
     .recitales{
         display: flex;
         flex-direction: column;
@@ -640,6 +648,7 @@
             margin-top: 15px;
         }
     }
+}
 
     .quiensoy{
         display: flex;

@@ -596,39 +596,43 @@ footer .tiktok {
   }
 }
 @media (max-width: 768px) {
-  .productos {
+  .merchandising {
+    border: solid #f5f5f5;
+    padding: 2px;
+  }
+  .merchandising .productos {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     border: solid #f5f5f5;
     justify-items: center;
   }
-  .productos .remera {
+  .merchandising .productos .remera {
     width: 550px;
     height: 450px;
     margin-top: 15px;
   }
-  .productos .buzo {
+  .merchandising .productos .buzo {
     width: 550px;
     height: 450px;
     margin-top: 15px;
   }
-  .productos .gorra {
+  .merchandising .productos .gorra {
     width: 550px;
     height: 450px;
     margin-top: 15px;
   }
-  .productos .llavero {
+  .merchandising .productos .llavero {
     width: 550px;
     height: 450px;
     margin-top: 15px;
   }
-  .productos .campera {
+  .merchandising .productos .campera {
     width: 550px;
     height: 450px;
     margin-top: 15px;
   }
-  .productos .vinilo {
+  .merchandising .productos .vinilo {
     width: 550px;
     height: 450px;
     margin-top: 15px;
@@ -732,38 +736,42 @@ footer .tiktok {
     width: 350px;
     height: 300px;
   }
-  .productos {
+  .merchandising {
+    border: solid #f5f5f5;
+    padding: 1px;
+  }
+  .merchandising .productos {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    border: #f5f5f5;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: solid #f5f5f5;
   }
-  .productos .remera {
+  .merchandising .productos .remera {
     width: 300px;
     height: 300px;
     margin-top: 15px;
   }
-  .productos .buzo {
+  .merchandising .productos .buzo {
     width: 300px;
     height: 300px;
     margin-top: 15px;
   }
-  .productos .gorra {
+  .merchandising .productos .gorra {
     width: 300px;
     height: 300px;
     margin-top: 15px;
   }
-  .productos .llavero {
+  .merchandising .productos .llavero {
     width: 300px;
     height: 300px;
     margin-top: 15px;
   }
-  .productos .campera {
+  .merchandising .productos .campera {
     width: 300px;
     height: 300px;
     margin-top: 15px;
   }
-  .productos .vinilo {
+  .merchandising .productos .vinilo {
     width: 300px;
     height: 300px;
     margin-top: 15px;
@@ -798,31 +806,34 @@ footer .tiktok {
     height: 300px;
     margin-top: 15px;
   }
-  .recitales {
+  .shows {
+    padding: 0px;
+  }
+  .shows .recitales {
     display: flex;
     flex-direction: column;
   }
-  .recitales .velez {
+  .shows .recitales .velez {
     width: 450px;
     height: 200px;
     margin-top: 15px;
   }
-  .recitales .colon {
+  .shows .recitales .colon {
     width: 450px;
     height: 200px;
     margin-top: 15px;
   }
-  .recitales .flores {
+  .shows .recitales .flores {
     width: 450px;
     height: 200px;
     margin-top: 15px;
   }
-  .recitales .opera {
+  .shows .recitales .opera {
     width: 450px;
     height: 200px;
     margin-top: 15px;
   }
-  .recitales .vorterix {
+  .shows .recitales .vorterix {
     width: 450px;
     height: 200px;
     margin-top: 15px;
